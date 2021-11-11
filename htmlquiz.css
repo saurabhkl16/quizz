@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+
+body{
+    background-image: url(quizback.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+}
+
+/* navbar  */
+
+nav{
+  display: flex;
+  
+  justify-content: space-around;
+  height: 70px;
+  background-color: black;
+  align-items: center;
+  font-family: 'Mochiy Pop P One', sans-serif;
+  
+}
+
+nav .left{
+  display: flex;
+  
+}
+
+nav .left h1{
+  color: white;
+  font-size: 40px;
+  padding-left: 10px;
+  font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.quizz-btn{
+  padding: 10px 20px;
+  background-color: aqua;
+  border-radius: 10px;
+  border: none;
+  border-color: 1px solid black;
+  font-weight: bold;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 10px;
+  cursor: pointer;
+  font-family: 'Cabin', sans-serif;
+
+
+}
+
+.quizz-btn:hover{
+  background-color: red;
+  color: white;
+
+}
+
+/* Quizz */
+.main-div{
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.inner-div{
+  background-color: black;
+  width: 40vw;
+  padding: 3rem 8rem;
+  border-radius: 1rem;
+  box-shadow: 0 1rem 1rem -0.7rem rgba(0,0, 0,0.7);
+
+}
+
+.inner-div h2{
+   font-size: 20px;
+   margin:10px 0px
+}
+
+li{
+  list-style:none;
+  margin: 5px 0px;
+  
+}
+
+label{
+  font-family: 'Red Hat Mono', monospace;
+}
+
+input{
+  cursor: pointer;
+}
+
+#submit , .btn{
+
+  padding: 8px 25px;
+  outline: none;
+  display: block;
+  margin: auto;
+  border-radius: 5px;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 900;
+  background-color: rgb(19, 235, 19);
+  border: none;
+
+}
+
+#submit:hover{
+  background-color: red;
+  color: white; 
+  cursor: pointer;
+}
+
+#showscore{
+  background-color: white;
+  padding: 10px 5px;
+  margin-top: 15px;
+  color: black;
+  border-radius: 10px;
+}
+
+#showscore h3{
+  text-align: center;
+  font-size: 1rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 10px;
+
+}
+
+#showscore .btnPlayagain{
+  padding: 5px 20px;
+  outline: none;
+  border-radius: 5px;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 900;
+  background-color: rgb(19, 156, 235);
+  border: none;
+  display: block;
+  margin: auto;
+}
+#showscore .btnPlayagain:hover{
+  background-color: aqua;
+  color: black;
+  cursor: pointer;
+
+}
+.scoreArea{
+  display: none;
+}
