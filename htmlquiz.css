@@ -71,7 +71,8 @@ nav .left h1{
 }
 .inner-div{
   background-color: black;
-  width: 40vw;
+/*   width: 40vw; */
+    width: calc(100vw-75vw);
   padding: 3rem 8rem;
   border-radius: 1rem;
   box-shadow: 0 1rem 1rem -0.7rem rgba(0,0, 0,0.7);
